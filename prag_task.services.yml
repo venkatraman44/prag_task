@@ -1,0 +1,4 @@
+services:
+  custom_service:   #our service
+    class : Drupal\prag_task\CustomService #define class and where it is present
+    arguments: ['@config.factory']  #arguments

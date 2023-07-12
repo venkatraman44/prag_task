@@ -1,0 +1,9 @@
+prag_task.configform: #route name for config form
+  path: '/config-task' #path
+  defaults:
+    _form: '\Drupal\prag_task\Form\ConfigForm' #class and function
+    _title: 'Custom Configuration Form' #title
+  requirements:
+    _permission: 'access content' #permission
+  options:
+    _admin_route: true #admin theme
